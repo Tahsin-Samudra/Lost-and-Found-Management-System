@@ -38,6 +38,11 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
             this.gnaDgvReturnTable = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.Picture = new System.Windows.Forms.DataGridViewImageColumn();
+            this.ReturnedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ReturnedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ReturnedTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gnaTxtSearch = new Guna.UI2.WinForms.Guna2TextBox();
             this.gnaBtnSearch = new Guna.UI2.WinForms.Guna2Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
@@ -47,11 +52,6 @@
             this.gnaBtnRefresh = new Guna.UI2.WinForms.Guna2CircleButton();
             this.gnaBtnUpdate = new Guna.UI2.WinForms.Guna2CircleButton();
             this.gnaBtnBack = new Guna.UI2.WinForms.Guna2Button();
-            this.Picture = new System.Windows.Forms.DataGridViewImageColumn();
-            this.ReturnedOn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ItemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ReturnedBy = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ReturnedTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gnaDgvReturnTable)).BeginInit();
             this.SuspendLayout();
@@ -150,6 +150,43 @@
             this.gnaDgvReturnTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.gnaDgvReturnTable.ThemeStyle.RowsStyle.Height = 90;
             this.gnaDgvReturnTable.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.gnaDgvReturnTable_CellFormatting);
+            // 
+            // Picture
+            // 
+            this.Picture.DataPropertyName = "Picture";
+            this.Picture.HeaderText = "pic";
+            this.Picture.Name = "Picture";
+            this.Picture.ReadOnly = true;
+            this.Picture.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Picture.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // ReturnedOn
+            // 
+            this.ReturnedOn.DataPropertyName = "ReturnedOn";
+            this.ReturnedOn.HeaderText = "ReturnedOn";
+            this.ReturnedOn.Name = "ReturnedOn";
+            this.ReturnedOn.ReadOnly = true;
+            // 
+            // ItemName
+            // 
+            this.ItemName.DataPropertyName = "ItemName";
+            this.ItemName.HeaderText = "Name";
+            this.ItemName.Name = "ItemName";
+            this.ItemName.ReadOnly = true;
+            // 
+            // ReturnedBy
+            // 
+            this.ReturnedBy.DataPropertyName = "Returned_By";
+            this.ReturnedBy.HeaderText = "ReturnedBy";
+            this.ReturnedBy.Name = "ReturnedBy";
+            this.ReturnedBy.ReadOnly = true;
+            // 
+            // ReturnedTime
+            // 
+            this.ReturnedTime.DataPropertyName = "ReturnedTime";
+            this.ReturnedTime.HeaderText = "ReturnedTime";
+            this.ReturnedTime.Name = "ReturnedTime";
+            this.ReturnedTime.ReadOnly = true;
             // 
             // gnaTxtSearch
             // 
@@ -284,43 +321,7 @@
             this.gnaBtnBack.Size = new System.Drawing.Size(59, 51);
             this.gnaBtnBack.TabIndex = 7;
             this.gnaBtnBack.Text = "<";
-            // 
-            // Picture
-            // 
-            this.Picture.DataPropertyName = "Picture";
-            this.Picture.HeaderText = "pic";
-            this.Picture.Name = "Picture";
-            this.Picture.ReadOnly = true;
-            this.Picture.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Picture.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ReturnedOn
-            // 
-            this.ReturnedOn.DataPropertyName = "ReturnedOn";
-            this.ReturnedOn.HeaderText = "ReturnedOn";
-            this.ReturnedOn.Name = "ReturnedOn";
-            this.ReturnedOn.ReadOnly = true;
-            // 
-            // ItemName
-            // 
-            this.ItemName.DataPropertyName = "ItemName";
-            this.ItemName.HeaderText = "Name";
-            this.ItemName.Name = "ItemName";
-            this.ItemName.ReadOnly = true;
-            // 
-            // ReturnedBy
-            // 
-            this.ReturnedBy.DataPropertyName = "Returned_By";
-            this.ReturnedBy.HeaderText = "ReturnedBy";
-            this.ReturnedBy.Name = "ReturnedBy";
-            this.ReturnedBy.ReadOnly = true;
-            // 
-            // ReturnedTime
-            // 
-            this.ReturnedTime.DataPropertyName = "ReturnedTime";
-            this.ReturnedTime.HeaderText = "ReturnedTime";
-            this.ReturnedTime.Name = "ReturnedTime";
-            this.ReturnedTime.ReadOnly = true;
+            this.gnaBtnBack.Click += new System.EventHandler(this.gnaBtnBack_Click);
             // 
             // ReturnHistory
             // 

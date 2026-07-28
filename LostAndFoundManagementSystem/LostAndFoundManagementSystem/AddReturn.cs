@@ -79,11 +79,12 @@ namespace LostAndFoundManagementSystem
             //    MessageBox.Show("Error !");
             //}
             this.dalReturn = new DAL();
-            string retID = this.AutoRetIDGenerate();
+            string retID = this.AutoRetIDGenerate();            
             //lf = new LoginForm();
             //lf initiate
             var returned = this.dalReturn.InsertReturnTable(retID, this.txtReturn.Text.Trim(),this.gnaPcbPreview.ImageLocation,this.lblItemID.Text.Trim(), LoginForm.UserID, this.lblReturnTime.Text, this.lblReturnOnDate.Text);
-            if(returned)
+            var updated = this.dalReturn.updateLostItem(this.lblItemID.Text.Trim());
+            if (returned & updated)
             {
                 MessageBox.Show("Item Returned Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);                
             }

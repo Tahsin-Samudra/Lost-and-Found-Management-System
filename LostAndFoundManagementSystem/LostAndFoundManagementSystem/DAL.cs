@@ -181,6 +181,23 @@ namespace LostAndFoundManagementSystem
             }
 
         }
+
+        /*
+          UPDATE Students
+          SET Age = 23
+          WHERE StudentID = 1;
+         */
+
+        public bool updateLostItem(string itemId) {
+            string sql = "Update Lost_Item Set Status = 'True' Where ItemID = '"+ itemId + "' ;";
+            this.command = new SqlCommand(sql);
+            this.command.Connection = this.connection;
+
+            int cnt = this.command.ExecuteNonQuery();
+            
+            return (cnt == 1);
+
+        }
         
         public bool ReturnStuff(string id)
         {

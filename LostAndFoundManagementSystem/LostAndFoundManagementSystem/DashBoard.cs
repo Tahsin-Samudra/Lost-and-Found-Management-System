@@ -20,6 +20,14 @@ namespace LostAndFoundManagementSystem
         private AddAdmin addAdminPage;
         private bool sidebarExpand = false;
         private SubmissionHistory submissionHistoryPage;
+        private bool loggedOut = false;
+        public bool LoggedOut
+        {
+            get
+            {
+                return loggedOut;
+            }
+        }
         //private string itemIdFetched;
 
         public DashBoard()
@@ -77,10 +85,7 @@ namespace LostAndFoundManagementSystem
                 panelContainer.Controls.Add(control);
             }         
         */
-        private void DashBoard_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
+        
 
 
         private void sidebarUpDown_Tick(object sender, EventArgs e)
@@ -133,8 +138,8 @@ namespace LostAndFoundManagementSystem
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            new LoginForm().Show();
-            this.Dispose();
+            loggedOut = true;
+            this.Close();
         }
 
         private void pbxDashMenu_Click(object sender, EventArgs e)
@@ -190,5 +195,7 @@ namespace LostAndFoundManagementSystem
             this.Hide();
             new ReturnHistory().Show();
         }
+
+        
     }
 }

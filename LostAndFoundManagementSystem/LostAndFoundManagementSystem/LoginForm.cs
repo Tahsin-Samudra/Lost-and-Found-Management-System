@@ -97,30 +97,27 @@ namespace LostAndFoundManagementSystem
 
         }
 
+        // LoginForm.cs
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string id = this.txtUsername.Text;
             string pass = this.txtPassword.Text;
-            //DataBase Access
+
             this.dalLogin = new DAL();
             int authentication = this.dalLogin.Validity(id, pass);
-            
             this.dalLogin.closeConnection();
-            
 
-            if (authentication == 1) {
+            if (authentication == 1)
+            {
                 UserID = id;
                 MessageBox.Show("Login Successful");
-                
-                this.dashBoard = new DashBoard(this);
-                this.dashBoard.Visible = true;
-                this.Visible = false;           
+                this.DialogResult = DialogResult.OK;
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Login Denied");
             }
-
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
@@ -134,9 +131,6 @@ namespace LostAndFoundManagementSystem
             this.Visible = false;
         }
 
-        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
-        }
+        
     }
 }

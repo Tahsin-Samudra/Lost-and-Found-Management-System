@@ -18,9 +18,26 @@ namespace LostAndFoundManagementSystem
         {            
 
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);                        
+            Application.SetCompatibleTextRenderingDefault(false);
 
-            Application.Run(new LoginForm());
+            while(true)
+            {
+                using (var login = new LoginForm())
+                {
+                    if (login.ShowDialog() == DialogResult.OK)
+                    {
+                        Application.Run(new DashBoard());
+                    }
+                }
+
+                using (var dash = new DashBoard())
+                {
+                    Application.Run(dash);
+                    if (!dash.LoggedOut)
+                        break; // dashboard closed normally -> exit app
+                               // else loop to show login again
+                }
+            }
         }
     }
 }

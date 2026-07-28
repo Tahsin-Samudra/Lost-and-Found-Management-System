@@ -61,5 +61,11 @@ namespace LostAndFoundManagementSystem
                 }
             }
         }
+
+        private void gnaBtnBack_Click(object sender, EventArgs e)
+        {
+            new DashBoard().Show();
+            this.Hide();
+        }
     }
 }
