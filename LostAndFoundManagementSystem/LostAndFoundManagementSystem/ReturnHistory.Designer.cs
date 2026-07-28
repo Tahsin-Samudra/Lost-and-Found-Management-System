@@ -110,7 +110,7 @@
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
             this.gnaDgvReturnTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Violet;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.MediumSlateBlue;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
@@ -143,7 +143,7 @@
             this.gnaDgvReturnTable.Size = new System.Drawing.Size(1188, 416);
             this.gnaDgvReturnTable.TabIndex = 3;
             this.gnaDgvReturnTable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.gnaDgvReturnTable.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Violet;
+            this.gnaDgvReturnTable.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.gnaDgvReturnTable.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
             this.gnaDgvReturnTable.ThemeStyle.HeaderStyle.Height = 50;
             this.gnaDgvReturnTable.ThemeStyle.ReadOnly = true;
@@ -213,7 +213,7 @@
             this.gnaBtnSearch.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.gnaBtnSearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.gnaBtnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.gnaBtnSearch.FillColor = System.Drawing.Color.Violet;
+            this.gnaBtnSearch.FillColor = System.Drawing.Color.DarkSlateBlue;
             this.gnaBtnSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.gnaBtnSearch.ForeColor = System.Drawing.Color.White;
             this.gnaBtnSearch.Location = new System.Drawing.Point(557, 135);
