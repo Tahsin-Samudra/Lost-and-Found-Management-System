@@ -139,7 +139,9 @@ namespace LostAndFoundManagementSystem
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             loggedOut = true;
-            this.Close();
+            this.Dispose();
+            new LoginForm().Show();            
+            
         }
 
         private void pbxDashMenu_Click(object sender, EventArgs e)
@@ -196,6 +198,9 @@ namespace LostAndFoundManagementSystem
             new ReturnHistory().Show();
         }
 
-        
+        private void DashBoard_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

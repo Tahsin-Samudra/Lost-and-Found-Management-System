@@ -28,7 +28,8 @@ namespace LostAndFoundManagementSystem
 
         private void SubmissionHistory_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            new DashBoard().Show();
+            this.Dispose();
         }
 
         private void btnPrev_Click(object sender, EventArgs e)

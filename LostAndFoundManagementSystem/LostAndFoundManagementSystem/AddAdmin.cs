@@ -25,7 +25,8 @@ namespace LostAndFoundManagementSystem
 
         private void AddAdmin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            new DashBoard().Show();
+            this.Hide();
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)

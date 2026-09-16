@@ -332,7 +332,6 @@
             this.gnaPnlReturn.Size = new System.Drawing.Size(265, 210);
             this.gnaPnlReturn.TabIndex = 8;
             this.gnaPnlReturn.Click += new System.EventHandler(this.gnaPnlReturn_Click);
-            
             // 
             // guna2Panel3
             // 
@@ -566,7 +565,7 @@
             this.Name = "DashBoard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DashBoard";
-            
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DashBoard_FormClosing);
             this.Load += new System.EventHandler(this.DashBoard_Load);
             this.pnlDashBoard.ResumeLayout(false);
             this.pnlDashBoard.PerformLayout();
