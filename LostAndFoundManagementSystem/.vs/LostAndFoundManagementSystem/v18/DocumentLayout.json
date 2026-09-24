@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\submissionhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|e:\\projects\\lfms\\lostandfoundmanagementsystem\\lostandfoundmanagementsystem\\submissionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\lostandfoundmanagementsystem\\submissionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{48E413B9-B245-4C1E-9A42-2707E066F469}|LostAndFoundManagementSystem\\LostAndFoundManagementSystem.csproj|solutionrelative:lostandfoundmanagementsystem\\submissionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -38,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "LostAndFoundManagementSystem\\LoginForm.cs",
               "ToolTip": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\LoginForm.cs",
               "RelativeToolTip": "LostAndFoundManagementSystem\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAYwH8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-16T07:01:13.514Z",
               "EditorCaption": ""
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DashBoard.cs",
               "DocumentMoniker": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\DashBoard.cs",
               "RelativeDocumentMoniker": "LostAndFoundManagementSystem\\DashBoard.cs",
               "ToolTip": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\DashBoard.cs",
               "RelativeToolTip": "LostAndFoundManagementSystem\\DashBoard.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAwJUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwJUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-28T15:32:55.477Z",
               "EditorCaption": ""
@@ -87,8 +87,7 @@
               "ToolTip": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\DashBoard.cs [Design]",
               "RelativeToolTip": "LostAndFoundManagementSystem\\DashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T07:10:11.769Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-22T07:10:11.769Z"
             },
             {
               "$type": "Document",
@@ -100,8 +99,7 @@
               "RelativeToolTip": "LostAndFoundManagementSystem\\SubmissionHistory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T06:52:29.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-16T06:52:29.624Z"
             },
             {
               "$type": "Document",
@@ -112,8 +110,7 @@
               "ToolTip": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\SubmissionHistory.cs [Design]",
               "RelativeToolTip": "LostAndFoundManagementSystem\\SubmissionHistory.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T06:52:10.027Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-16T06:52:10.027Z"
             },
             {
               "$type": "Document",
@@ -124,8 +121,7 @@
               "ToolTip": "E:\\Projects\\LFMS\\LostAndFoundManagementSystem\\LostAndFoundManagementSystem\\SubmissionForm.cs [Design]",
               "RelativeToolTip": "LostAndFoundManagementSystem\\SubmissionForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-16T06:52:04.351Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-09-16T06:52:04.351Z"
             }
           ]
         }

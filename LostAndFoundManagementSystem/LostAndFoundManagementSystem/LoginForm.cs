@@ -14,6 +14,7 @@ namespace LostAndFoundManagementSystem
     public partial class LoginForm : Form
     {
         private DAL dalLogin;
+        private bool loginSuccessful = false;
         private DashBoard dashBoard;
         private SupportTeamContactInfro support;
         private SignUp signUp;
@@ -111,8 +112,9 @@ namespace LostAndFoundManagementSystem
             {
                 UserID = id;
                 MessageBox.Show("Login Successful");
+                this.loginSuccessful = true;
                 this.DialogResult = DialogResult.OK;
-                this.Close();
+                this.Hide();
             }
             else
             {
@@ -131,6 +133,12 @@ namespace LostAndFoundManagementSystem
             this.Visible = false;
         }
 
-        
+        private void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(loginSuccessful == false)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
